@@ -2,6 +2,8 @@
 
 A modern, interactive 4x4 sliding puzzle game built with React, featuring image upload, camera capture, real-time leaderboards, and social authentication.
 
+> 🇰🇷 For Korean documentation, see [READMEinKR.md](READMEinKR.md).
+
 ## ✨ Features
 
 ### 🎮 Core Game Features
