@@ -1,0 +1,79 @@
+{
+  "name": "sliding-puzzle-master",
+  "version": "1.0.0",
+  "description": "A modern 4x4 sliding puzzle game with image upload, camera capture, and real-time leaderboards",
+  "homepage": "https://github.com/alfpooh/ImageSlidingGame#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alfpooh/ImageSlidingGame.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alfpooh/ImageSlidingGame/issues"
+  },
+  "keywords": [
+    "sliding-puzzle",
+    "game",
+    "react",
+    "supabase",
+    "puzzle",
+    "image-processing",
+    "leaderboard"
+  ],
+  "author": "alfpooh",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "lucide-react": "^0.263.1",
+    "motion": "^10.16.4",
+    "recharts": "^2.8.0",
+    "react-hook-form": "^7.55.0",
+    "sonner": "^2.0.3",
+    "@supabase/supabase-js": "^2.39.0",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^4.0.0-alpha.30",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0 --fix",
+    "type-check": "tsc --noEmit",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:deploy": "supabase functions deploy",
+    "supabase:logs": "supabase functions logs"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  }
+}
